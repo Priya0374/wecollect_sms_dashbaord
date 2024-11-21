@@ -10,8 +10,6 @@ function LoginPage({ onLogin }) {
   };
 
   return (
-
-
     <div className="">
     <div className="login-page">
       <div className="login-container">
