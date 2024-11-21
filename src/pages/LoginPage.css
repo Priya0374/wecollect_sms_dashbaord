@@ -1,0 +1,133 @@
+/* General styles */
+/* body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #74ebd5, #9face6);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+   */
+  /* Main login container */
+  .login-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  
+
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    /* background: 
+      linear-gradient(135deg, rgba(116, 235, 213, 0.8), rgba(159, 172, 230, 0.8)), 
+      url("../img/bg-img.jpg"); */
+       /* Background image */
+    background-size: cover; /* Make the image cover the entire area */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    
+  }
+  
+
+  .content {
+    margin-left: 250px;
+    padding: 20px;
+    /* background: #f0f0f0; */
+    min-height: 100vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .login-container {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    width: 400px;
+    padding: 20px;
+    text-align: center;
+    margin: 10rem;
+  }
+  
+  /* Header styles */
+  .login-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .brand-title {
+    font-size: 1.8em;
+    color: #333;
+    margin: 0;
+  }
+  
+  .header-logo {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+  }
+  
+  /* Form styles */
+  .login-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input-field {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+  }
+  
+  .input-field:focus {
+    border-color: #9face6;
+    outline: none;
+  }
+  
+  .login-button {
+    background: linear-gradient(135deg, #74ebd5, #9face6);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .login-button:hover {
+    background: linear-gradient(135deg, #9face6, #74ebd5);
+  }
+  
+  .login-button:focus {
+    outline: none;
+  }
+  
+  /* Add responsiveness */
+  @media (max-width: 500px) {
+    .login-container {
+      width: 90%;
+    }
+  
+    .brand-title {
+      font-size: 1.5em;
+    }
+  }
+  
